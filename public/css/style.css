@@ -43,9 +43,14 @@ html{
     color:var(--main-color);
 }
 .navbar-toggler{
-    background-color: gray;
+    color:white;
+    font-size:22px;
+    display:inline-block;
+    text-align: center;
 }
-
+.navbar-toggler:active{
+    border:none;
+}
 .fa-snowflake{
     transition:all linear;
     animation: rot 2s linear  infinite; 
@@ -140,7 +145,8 @@ html{
     font-size:1.6rem;
 }
 .temp_form input[type="submit"]:hover{
-    color:#009ad8;
+    color:#7b98a3;
+    background-color: white;
 }
 
 .tempInformation{
